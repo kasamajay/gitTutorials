@@ -58,4 +58,14 @@ git commit -m "some commit message"  [this is will move all the changes in stagi
 git add second.txt [will only add the second.txt from working copy to staging area]
 
 ---
+git commit -m "changes done for feature1" <fileName> [this will commit changes done to fileName]
+---
 
+
+after making changes to file in repository, then execute command git add <fileName> so the changes are moved to staging area, then execute git commit -m "" <fileName> to move the changes to repository
+
+----
+
+after making changes to files in repository, then execute command "git add ." so the changes are moved to staging area, then execute [git commit -m ""] to move the changes to repository
+
+----
