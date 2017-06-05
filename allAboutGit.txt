@@ -34,3 +34,28 @@ run "git init"
 
 now everything you do in this folder is version controlled by GIT
 ----
+git add .
+
+git commit -m "This is firt commit"
+
+----
+git log  [view commit history]
+
+git log --author="Ajay" [view commit history of only developer "Ajay"]
+----
+
+working copy > staging area > repository
+
+----
+untracked files are in working copy
+---
+after git add second.txt [this will move second.txt from working copy to staging area]
+
+----
+git commit -m "some commit message"  [this is will move all the changes in staging area into the repository]
+
+----
+git add second.txt [will only add the second.txt from working copy to staging area]
+
+---
+
