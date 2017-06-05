@@ -1,0 +1,36 @@
+download Git on windows
+install it (double click it)
+
+check c:\program files\git
+
+check for git bash and git gui
+
+create a short cut to desktop (for git bash)
+
+double click the icon on desktop for git bash
+
+on the git bash > type git --version
+
+-----
+git config --global user.name "Ajay Kumar Kasam"
+
+git config --global user.email "kasamajay@gmail.com"
+
+git config --list
+---
+git help
+
+git help <commit>
+git help <config>
+
+
+git help -a
+git help -g
+
+----
+go into the folder which needs to be tracked by Git
+
+run "git init"
+
+now everything you do in this folder is version controlled by GIT
+----
