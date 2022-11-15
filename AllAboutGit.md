@@ -1,4 +1,4 @@
-download Git on windows
+# Download Git on windows
 install it (double click it)
 
 check c:\program files\git
